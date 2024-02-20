@@ -1,3 +1,12 @@
+Mosquitto-TKI
+=================
+This fork is to add a security feature for another project. The goal is to detect a client
+published message with a specific format and inject the client IP address into that message.
+
+We understand the deign philosophy, however, the application has security requirements to know
+via IP what client is publishing.
+
+
 Eclipse Mosquitto
 =================
 
